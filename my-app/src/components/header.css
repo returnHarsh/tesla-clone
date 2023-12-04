@@ -1,0 +1,51 @@
+*{
+    font-size: 1.1rem;
+}
+a{
+    text-decoration: none;
+}
+
+.menu > p{
+    text-transform: uppercase;
+    font-weight: 600;
+padding: 0 10px;
+flex-wrap: nowrap;
+
+}
+
+
+
+
+.menu{
+    display:flex;
+gap:10px;
+margin:10px;
+margin-left: 180px;
+align-items: center;
+justify-content: center;
+}
+
+@media (max-width:768px)
+{
+    .menu{
+        display: none;
+    }
+
+}
+
+.rightMenu{
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightMenu > a{
+    padding: 0 10px;
+}
+
+a{
+    font-weight: 600;
+}
+
